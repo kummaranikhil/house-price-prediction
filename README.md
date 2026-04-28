@@ -61,6 +61,9 @@ The goal of this project is to predict house prices based on features such as in
 
 ![Score](images/r2_score.png)
 
+### Price Distribution
+![Price](images/price_distribution.png)
+
 ---
 
 ## ▶️ How to Run
