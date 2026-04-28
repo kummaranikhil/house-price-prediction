@@ -1,8 +1,8 @@
 # 🏠 House Price Prediction using Machine Learning
 
-## 📌 Problem
+## 💡 Project Motivation
 
-The goal of this project is to predict house prices based on features such as income, house age, and location.
+This project was built to understand how machine learning can solve real-world regression problems like predicting house prices.
 
 ---
 
@@ -15,10 +15,10 @@ The goal of this project is to predict house prices based on features such as in
 
 ## ⚙️ Approach
 
-• Loaded and explored dataset using Pandas
-• Performed data analysis and visualization
-• Split data into training and testing sets
-• Trained a Linear Regression model
+• Data loading and exploration
+• Data preprocessing
+• Model training using Linear Regression
+• Model evaluation using R² score
 
 ---
 
@@ -30,30 +30,21 @@ The goal of this project is to predict house prices based on features such as in
 
 ## 📊 Results
 
-• Achieved R² Score of ~0.6
-• Model shows moderate prediction performance
+• R² Score: ~0.6
+• Moderate prediction performance
 
 ---
 
 ## 🔍 Insights
 
-• Median income has strong impact on house prices
-• House age has moderate influence
-
----
-
-## 🛠️ Tech Stack
-
-• Python
-• Pandas, NumPy
-• Scikit-learn
-• Matplotlib, Seaborn
+• Median income strongly affects house prices
+• Some features have weaker correlation
 
 ---
 
 ## 📈 Output
 
-### Model Prediction Graph
+### Prediction Graph
 
 ![Graph](images/output.png)
 
@@ -62,19 +53,45 @@ The goal of this project is to predict house prices based on features such as in
 ![Score](images/r2_score.png)
 
 ### Price Distribution
+
 ![Price](images/price_distribution.png)
+
+---
+
+## 🛠️ Tech Stack
+
+• Python
+• Pandas, NumPy
+• Scikit-learn
+• Matplotlib
 
 ---
 
 ## ▶️ How to Run
 
-1. Install dependencies
-2. Run the notebook
+1. Clone the repository
+2. Install dependencies:
+   `pip install -r requirements.txt`
+3. Run notebook or model.py
+
+---
+
+## 💾 Model Saving
+
+The trained model is saved using pickle.
+
+---
+
+## 🚀 Future Improvements
+
+• Use advanced models (Random Forest, XGBoost)
+• Perform feature engineering
+• Deploy using Streamlit or Flask
 
 ---
 
 ## 🚀 Learnings
 
-• Understood regression modeling
-• Learned data preprocessing and evaluation
-• Gained hands-on ML experience
+• Data preprocessing and visualization
+• Regression modeling
+• Model evaluation techniques
