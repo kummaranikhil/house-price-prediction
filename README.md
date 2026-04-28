@@ -1,4 +1,4 @@
-# 🏠 House Price Prediction
+# 🏠 House Price Prediction using Machine Learning
 
 ## 📌 Problem
 
@@ -6,13 +6,25 @@ The goal of this project is to predict house prices based on features such as in
 
 ---
 
+## 📊 Dataset
+
+• California Housing Dataset
+• 20,640 rows and 8 features
+
+---
+
 ## ⚙️ Approach
 
 • Loaded and explored dataset using Pandas
 • Performed data analysis and visualization
-• Handled features and target variables
 • Split data into training and testing sets
 • Trained a Linear Regression model
+
+---
+
+## 🤖 Model
+
+• Linear Regression
 
 ---
 
@@ -20,6 +32,13 @@ The goal of this project is to predict house prices based on features such as in
 
 • Achieved R² Score of ~0.6
 • Model shows moderate prediction performance
+
+---
+
+## 🔍 Insights
+
+• Median income has strong impact on house prices
+• House age has moderate influence
 
 ---
 
@@ -41,6 +60,13 @@ The goal of this project is to predict house prices based on features such as in
 ### R2 Score
 
 ![Score](images/r2_score.png)
+
+---
+
+## ▶️ How to Run
+
+1. Install dependencies
+2. Run the notebook
 
 ---
 
